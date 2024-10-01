@@ -18,21 +18,20 @@
 # Written by: Jeren Browder
 # Other contributors: None
 #
-# Optional license statement, e.g., See the LICENSE file for the license.
 
-import sys  # for argument parsing
+
+import sys  # Argument parsing
 
 def ymdhms_to_julian_date(year, month, day, hour, minute, second):
     """
-    Convert a calendar date and time (year, month, day, hour, minute, second)
-    to the corresponding Julian Date (JD).
+    Convert a calendar date and time to Julian Date
     
     Args:
-        year (int): Year of the date.
-        month (int): Month of the date (1 = January, ..., 12 = December).
-        day (int): Day of the month.
-        hour (int): Hour of the day (0-23).
-        minute (int): Minute of the hour (0-59).
+        year (int): Year
+        month (int): Month 
+        day (int): Day 
+        hour (int): Hour 
+        minute (int): Minute
         second (float): Seconds of the minute (can have a decimal portion).
         
     Returns:
